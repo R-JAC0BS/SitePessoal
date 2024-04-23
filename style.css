@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    background-color: #0f0f0f;
+
+}
+
+.container {
+    width: 100vw;
+    height: 6vw;
+    background-color: #0f0f0f;
+    display: flex;
+    position: absolute;
+    
+}
+
+.nav {
+    background-color: #0f0f0f;
+    position: fixed;
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 1px 3px 6px rgba(18, 19, 19, 0.569);
+}
+.nav > a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    color: white;
+    text-decoration: none;
+    transition: step-end;
+}
+
+.nav > a:hover {
+    animation: both;
+    display: inline-block;
+    color: rgb(48, 131, 183);
+
+}
+
+.main {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 90vh;
+    background-color: gray;
+    background-image: url(d07f971f-5a4b-413f-9a4f-84eb417178e6.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.corpo {
+    margin-top: 20vw;
+}
+
+.corpo > h1 {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(152, 89, 211);
+    text-shadow: 1px 4px 10px rgb(179, 39, 179);
+    font-size: 5vw;
+    margin-bottom: 10px;
+    margin-left: 6vw;
+}
+
+.corpo > p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 6vw;
+    text-indent: 10px;
+    width: 40vw;
+
+}
+
+.mainDois {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 90vh;
+    background-color: #0f0f0f;
+    text-align: right;
+}
+
+.imagem {
+    width: 500px;
+    height: 700px;
+    background-color: blue;
+    display: flex;
+    position: relative;
+    left: 130px;
+    top: 68px;
+    border-radius: 30px;
+    background-image: url(https://img.freepik.com/fotos-gratis/arte-digital-belas-montanhas_23-2151123686.jpg?w=900&t=st=1713809754~exp=1713810354~hmac=5cf3c6406710f28cfcab3d619c1d3b9e99c913f118ffbdfecd7f6825cd79f371);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -85px;
+ }
+
+ .textos {
+    color: white;
+    width: 525px;
+    height: 628px;
+    display: block;
+    position: relative;
+    text-align: right;
+    left: 221px;
+    top: 100px;
+    text-align: center;
+ }
+
+h1#titulo {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+ }
+
+#lorem {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    margin-top: 30px;
+}
+
+.maintres {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 90vh;
+    background-color: #0f0f0f;
+    text-align: right;
+}
+
+.titulo2 {
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+
+.titulo3 {
+    margin: auto;
+    width: 400px;
+    height: 500px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    position: relative;
+    top: 230px;
+    right: 222px;
+}
+
+#h2 {
+    display: flex;
+    position: relative;
+    bottom: 451px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forma{
+    color: white;
+    display: grid;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 2px 3px 4px black;
+    
+}
+
+.forma1{
+    color: white;
+    display: grid;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+    
+   box-shadow: 2px 3px 4px black;
+}
+.forma2{
+    color: white;
+    display: grid;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+    box-shadow: 2px 3px 4px black;
+}
+.forma, .forma1, .forma2 {
+    background-color: #232f3a;
+}
+h3 {
+    margin: auto;
+}
+
+a {
+    color: white;
+}
